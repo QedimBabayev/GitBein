@@ -1,0 +1,10 @@
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+
+.ant-modal.close_doc_modal_wrapper .ant-modal-footer {
+  display: flex;
+  justify-content: space-between;
+}

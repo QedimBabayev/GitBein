@@ -1,0 +1,129 @@
+.show_packet_pcs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addProductInputWrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ui.menu .active.item{
+    color: #0288d1 !important;
+}
+.addProductInputIcon{
+    display: flex;
+    align-items: center;
+}
+
+.tableButtonsWrapper .ant-dropdown-trigger{
+    border: none !important;
+}
+
+.doctable th.ant-table-cell{
+    position: sticky;
+    top: 186px;
+    background-color: white;
+    z-index: 1;
+}
+.catalog_button_wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.catalog_button_wrapper button {
+    width: 140px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+ .doc_info_text.doc_info_secondary span{
+    font-size: 20px;
+}
+.doc_info_text.doc_info_secondary.edit span{
+    font-size: 15px;
+}
+.selectedItems{
+    flex-grow: 1;
+    justify-content: center;
+    background-color: #e6f7ff;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.addNewProductIcon{
+    position: absolute;
+    right: 0;
+    background-color: #e6f7ff;
+    color: #0288d1;
+
+}
+.selectedItems span{
+    color: red;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.selectedItemsWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.selectedItemsWrapper .ant-dropdown-trigger  {
+   border: none;
+}
+
+.selectedItemsWrapper .ant-dropdown-trigger span  {
+  color: #0288d1;
+ }
+.addProductInputIcon .anticon-plus
+{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.addProductInputIcon .ant-select{
+    width: 100%;
+}
+
+.packOrQuantityWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding-left: 4px;
+}
+.disabledPacket  .ant-select-selector{
+    border: none !important;
+    background-color: none !important;
+    background: none !important;
+
+}
+
+.ant-table-cell{
+    background-color: #f3f0f0;
+}
+
+.editable-cell-value-wrap{
+    background-color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding-right: 0 !important;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    width: 67%;
+    text-align: center;
+    padding-left: 5px !important;
+    border-radius: 2px;
+
+}
+
+.packOrQuantityWrapper:parent(div) {
+   background-color: wheat;
+ }
+.packOrQuantityWrapper .ant-select{
+    width: 76px !important;
+}
+

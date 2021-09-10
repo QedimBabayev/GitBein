@@ -1,0 +1,85 @@
+.ant-form-item-label > label::after {
+    content: ":";
+    position: relative;
+    top: -0.5px;
+    margin: 0px 8px 0 2px;
+}
+
+.ant-form-horizontal .ant-form-item-label {
+    flex-grow: 0;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.left_form_wrapper {
+    background: #f9f9f9;
+    margin-right: 41px;
+    padding-top: 13px;
+}
+
+
+
+.d-none{
+    display: none;
+}
+
+.left_form_wrapper .ant-row.ant-form-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ant-form-item-hidden,
+.ant-form-item-hidden.ant-row {
+    display: none !important;
+}
+
+.form_header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dots {
+    height: 4px;
+    width: 4px;
+    background: #525252;
+    border-radius: 2px;
+}
+
+.dots:nth-of-type(2) {
+    margin: 0 3px;
+}
+
+.form_setting_icon_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+}
+
+.main_form_side .ant-collapse-content-active .ant-collapse-header {
+    font-weight: bold;
+}
+
+
+.percent_wrapper{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex-row{
+    flex-direction: row !important;
+}
+.percent_wrapper .ant-row.ant-form-item{
+    margin: 0 !important;
+}
+
+.segment.active.tab{
+    border: none;
+    box-shadow: none !important;
+}
+

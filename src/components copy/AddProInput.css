@@ -1,0 +1,15 @@
+.optionCustom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.optionCustomWrapper{
+    width: 100%;
+}
+
+
+
+.fadeOption{
+    color: rgb(146, 146, 146);
+}

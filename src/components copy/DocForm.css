@@ -1,0 +1,60 @@
+.doc_forms .ant-row.ant-form-item {
+    justify-content: space-between;
+}
+
+.doc_forms .ant-form-item-label {
+    overflow: initial;
+}
+
+.doc_form_field_wrapper {
+    justify-content: space-between;
+}
+
+.doc_status_formitem_wrapper_col .ant-row.ant-form-item {
+    justify-content: flex-end !important;
+}
+
+.docComponentStatus .ant-checkbox-wrapper {
+    margin-left: 11px;
+}
+
+
+.form_item_with_icon {
+    display: flex;
+    justify-content: space-between;
+}
+.form_item_with_icon .add_elements {
+    padding: 4px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    color: #0288d1;
+    display: flex;
+    align-items: center;
+}
+.get_data_indicator{
+    background: white !important;
+}
+.customer_data_wrapper{
+    text-align: center;
+    color: red;
+    margin-bottom: 10px !important;
+}
+
+.form_header_wrapper {
+    position: sticky;
+    top: 114px;
+    background-color: white;
+    z-index: 1;
+}
+.doc_info_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form_item_with_icon .ant-row.ant-form-item {
+    width: 100%;
+}

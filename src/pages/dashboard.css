@@ -1,0 +1,7 @@
+.dashboard_card_ul li {
+    list-style-type: none;
+}
+
+.pageWrapper.dashboardPage{
+    margin-top: 111px;
+}

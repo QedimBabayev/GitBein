@@ -1,0 +1,26 @@
+.linked_doc_info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cusname_linked{
+    color: #0288d1;
+}
+
+.linked_info_span{
+    margin-left: 4px;
+}
+
+
+
+.linked_doc_top_side{
+    margin-bottom: 5px;
+}
+
+
+#linked_doc_filter{
+    padding: 0;
+    border: none;
+    text-align: center;
+    display: flex;
+}
